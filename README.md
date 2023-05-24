@@ -1,7 +1,22 @@
-# Vue 3 + Vite
+# BatVue
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Again - very nostalgic project. BatQuiz was my first js app, so since then most of my training projects based on it - like this one, created just to learn VueJS.
 
-## Recommended IDE Setup
+You won't find here anything brilliant - of course if your goal is not only check your knowledge about Gotham Knight :)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Requires
+In this project I'm using:
+- node 18.14.0
+- npm 9.3.1
+
+
+## How to run
+
+BatVue is based on Vue (what is quite obvious) and Vite. To run it you need to install project (in console):
+
+`npm install`
+
+`npm run dev` to run local server or `npm run build` to prepare production version.
+
+
+Good luck during quiz :)
