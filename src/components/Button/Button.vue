@@ -1,13 +1,11 @@
 <template>
   <button>
-    {{ title }}
+    {{ label }}
   </button>
 </template>
 
 <script>
 export default {
-  props: [
-      'title'
-  ]
-}
+  props: ["label"],
+};
 </script>
