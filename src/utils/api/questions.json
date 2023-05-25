@@ -25,7 +25,12 @@
       "id": "e04",
       "question": "Kogo nazywano \"Cudownym Chłopcem\"?",
       "answers": {
-        "i": ["Młodego Bruce'a Wayne'a", "Robina", "Jima Gordona", "Komisarza Loeba"]
+        "i": [
+          "Młodego Bruce'a Wayne'a",
+          "Robina",
+          "Jima Gordona",
+          "Komisarza Loeba"
+        ]
       }
     },
     {
@@ -83,7 +88,12 @@
       "id": "e10",
       "question": "Jak nazywano Batmana i Robina?",
       "answers": {
-        "i": ["Rycerze Nocy", "Skrzydlaci Obrońcy", "Liga Sprawiedliwości", "Dynamiczny Duet"]
+        "i": [
+          "Rycerze Nocy",
+          "Skrzydlaci Obrońcy",
+          "Liga Sprawiedliwości",
+          "Dynamiczny Duet"
+        ]
       }
     }
   ],
@@ -99,7 +109,12 @@
       "id": "n02",
       "question": "Która z wymienionych postaci nigdy nie zastępowała Bruce'a Wayne'a w roli Batmana?",
       "answers": {
-        "i": ["Jim Gordon", "Dick Greyson", "Jean Paul Valley", "Harvey Bullock"]
+        "i": [
+          "Jim Gordon",
+          "Dick Greyson",
+          "Jean Paul Valley",
+          "Harvey Bullock"
+        ]
       }
     },
     {
@@ -134,7 +149,12 @@
       "id": "n07",
       "question": "Dick Greyson, kiedy odłożył kostium Robina i został Nightwingiem, przeniósł się do innego miasta. Jakiego?",
       "answers": {
-        "i": ["Star City", "Blüdheaven", "Coast City", "Żadnego, został w Gotham"]
+        "i": [
+          "Star City",
+          "Blüdheaven",
+          "Coast City",
+          "Żadnego, został w Gotham"
+        ]
       }
     },
     {
@@ -243,7 +263,12 @@
       "id": "h10",
       "question": "W komiksie Batman #2 z serii New52 Mroczny Rycerz znajduje trop ukryty w zębie ofiary zabójstwa. Który to był ząb?",
       "answers": {
-        "i": ["Lewa czwórka", "Prawa górna jedynka", "Trzeci ząb trzonowy", "Lewy ząb mądrości"]
+        "i": [
+          "Lewa czwórka",
+          "Prawa górna jedynka",
+          "Trzeci ząb trzonowy",
+          "Lewy ząb mądrości"
+        ]
       }
     }
   ]

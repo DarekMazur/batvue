@@ -1,5 +1,5 @@
 {
-  "quiz": {  
+  "quiz": {
     "easy": [
       {
         "id": "e01",
@@ -128,19 +128,19 @@
     ]
   },
   "bonus": {
-    "easy":[
+    "easy": [
       {
         "id": "b_e",
         "answer": "Mark Hamil"
       }
     ],
-    "normal":[
+    "normal": [
       {
         "id": "b_n",
         "answer": "syjamy"
       }
     ],
-    "hard":[
+    "hard": [
       {
         "id": "b_h",
         "answer": "1-(900) 720 2666"

@@ -17,7 +17,12 @@
     "id": "b_h",
     "question": "W serii \"Śmierć w rodzinie\" o losach Robina zadecydowani czytelnicy w głosowaniu telefonicznym. Dzwoniąc pod numer 1-(900) 720 2660 głosowało się za ocaleniem Jaysona Todda. Pod jaki numer trzeba było zadzwonić, aby zagłosować przeciwko Robinowi?",
     "answers": {
-      "i": ["1-(900) 720 2664", "1-(900) 720 2666", "1-(900) 720 2668", "1-(900) 720 2670"]
+      "i": [
+        "1-(900) 720 2664",
+        "1-(900) 720 2666",
+        "1-(900) 720 2668",
+        "1-(900) 720 2670"
+      ]
     }
   }
 }
