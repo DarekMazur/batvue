@@ -1,21 +1,24 @@
 <template>
   <div class="App">
-    <header>BatQuiz</header>
+    <header>Jak dobrze znasz Zamaskowanego Krzyżowca?</header>
     <main>
       <section>
-        <h3>Lorem ipsum</h3>
+        <h3>Zmierz się z Batmanem!</h3>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
-            eveniet, porro? Doloremque ducimus facere nisi. Esse est labore
-            laudantium magnam magni natus odit quam repudiandae similique,
-            soluta ut veniam voluptate!
+            Batman, Człowiek-Nietoperz, Zamaskowany Krzyżowiec, Mroczny Rycerz,
+            Strażnik Gotham, Gacek. Postać-legenda. Uznany za największego
+            bohatera wszechczasów przez magazyn SFX. Człowiek, któy pomimo braku
+            supermocy (o ile za supermoc nie uznać liczby zer na koncie) jest w
+            stanie pokonać najpotężniejszych przedstawicieli Universum DC. Dziś
+            nadszedł czas, by sprawdzić swoją wiedzę o Człowieku-Nietoperzu.
+            Pytania są podzielone na trzy kategorie - łatwe, normalne i trudne.
+            Jednak jeżeli swoje informacje o Mrocznym Rycerzu czerpiesz z
+            filmów, to w Arkham mają już przygotowaną celę.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium ad, asperiores commodi consequuntur deleniti dicta
-            doloremque dolores earum eligendi id ipsa iure laborum maiores nemo
-            odit perspiciatis, quisquam quod repellendus!
+            Przed Tobą 10 pytań. Czas rozruszać szare komórki i odpowiedzieć na
+            pytanie - Jak dobrze znasz Zamaskowanego Krzyżowca!
           </p>
         </div>
         <div class="formWrapper">
@@ -34,4 +37,21 @@
   </div>
 </template>
 
-<style scoped></style>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Russo+One&display=swap");
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0e0e18;
+  color: #dbdbdc;
+  line-height: 1.5;
+}
+</style>
