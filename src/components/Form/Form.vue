@@ -1,12 +1,16 @@
 <template>
-  <div class="formWrapper">
-    <Button v-for="button in buttons" :key="button" :label="button" />
-    <input />
-  </div>
+  <section>
+    <div class="formWrapper">
+      <Button v-for="button in buttons" :key="button" :label="button" />
+      <input />
+    </div>
+    <Navigation />
+  </section>
 </template>
 
 <script>
 import Button from "../Button/Button.vue";
+import Navigation from "../Navigation/Navigation.vue";
 
 export default {
   data() {
@@ -15,6 +19,7 @@ export default {
     };
   },
   components: {
+    Navigation,
     Button,
   },
 };
