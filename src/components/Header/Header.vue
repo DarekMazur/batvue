@@ -1,15 +1,14 @@
 <template>
-  <header class="header"><h1 class="header__title">Jak dobrze znasz Zamaskowanego Krzyżowca?</h1></header>
+  <header class="header">
+    <h1 class="header__title">Jak dobrze znasz Zamaskowanego Krzyżowca?</h1>
+  </header>
 </template>
 <script>
-import hero from '../../../public/assets/hero.jpg'
-  export default {
-    data() {
-      return {
-        hero
-      }
-    }
-  }
+export default {
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -21,7 +20,7 @@ import hero from '../../../public/assets/hero.jpg'
   margin: 0;
   padding: 1rem;
   height: 40vh;
-  background: url('/assets/hero.jpg') no-repeat center center/cover;
+  background: url("/assets/hero.jpg") no-repeat center center/cover;
 
   &::before {
     position: absolute;
@@ -29,7 +28,7 @@ import hero from '../../../public/assets/hero.jpg'
     left: 0;
     width: 100%;
     height: 100%;
-    content: '';
+    content: "";
     background-color: #0e0e18;
     opacity: 0.7;
   }
