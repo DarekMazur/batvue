@@ -1,7 +1,12 @@
 <template>
   <section>
     <div class="formWrapper">
-      <Button v-for="button in buttons" :key="button" :label="button" />
+      <Button
+        v-for="button in buttons"
+        :key="button"
+        :label="button"
+        :version="version"
+      />
       <input />
     </div>
     <Navigation />
@@ -16,6 +21,7 @@ export default {
   data() {
     return {
       buttons: ["Easy", "Normal", "Hard"],
+      version: "select",
     };
   },
   components: {

@@ -1,18 +1,24 @@
 <template>
-  <button :class="{ active: isActive }">
+  <button @click="handleClick" :class="[{ active: isActive }, version]">
     {{ label }}
   </button>
 </template>
 
 <script>
-const isActive = true;
+let isActive = false;
+
 export default {
+  methods: {
+    handleClick: function handleClick() {
+      this.isActive = !this.isActive;
+    },
+  },
   data() {
     return {
       isActive,
     };
   },
-  props: ["label"],
+  props: ["label", "version"],
 };
 </script>
 
@@ -22,5 +28,15 @@ button {
   height: 3rem;
   margin: 1rem 1.2rem;
   font-family: "Russo One", sans-serif;
+
+  &.select {
+    background-color: #021c25;
+    color: #c4b61d;
+  }
+
+  &.active {
+    background-color: #c4b61d;
+    color: #186c89;
+  }
 }
 </style>
