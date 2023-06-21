@@ -1,5 +1,5 @@
 <template>
-  <button @click="handleClick" :class="[{ active: isActive }, version]">
+  <button @click="$emit('click')" :class="version">
     {{ label }}
   </button>
 </template>
@@ -34,7 +34,7 @@ button {
     color: #c4b61d;
   }
 
-  &.active {
+  &.selected {
     background-color: #c4b61d;
     color: #186c89;
   }

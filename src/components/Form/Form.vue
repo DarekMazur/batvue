@@ -3,6 +3,8 @@
     <div class="form__wrapper">
       <Button
         v-for="button in buttons"
+        :class="{ selected: selectedItem === button }"
+        @click="select(button)"
         :key="button"
         :label="button"
         :version="version"
@@ -25,11 +27,17 @@ export default {
     return {
       buttons: ["Easy", "Normal", "Hard"],
       version: "select",
+      selectedItem: null,
     };
   },
   components: {
     Navigation,
     Button,
+  },
+  methods: {
+    select(button) {
+      this.selectedItem = button;
+    },
   },
 };
 </script>
